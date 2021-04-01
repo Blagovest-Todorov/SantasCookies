@@ -29,7 +29,7 @@ namespace SantasCookies
                 int totalCookiesBake =(140+10+20)*Math.Min(Math.Min(frCups,srSpoons),coSpoons)/25;                   
 
                 int numbBoxesForBatch  = totalCookiesBake / 5;
-                totalBoxes += (int)numbBoxesForBatch;
+                totalBoxes += numbBoxesForBatch;
 
                 Console.WriteLine($"Boxes of cookies: {numbBoxesForBatch}");
             }
