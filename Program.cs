@@ -34,7 +34,6 @@ namespace SantasCookies
                 Console.WriteLine($"Boxes of cookies: {numbBoxesForBatch}");
             }
 
-
             Console.WriteLine($"Total boxes: {totalBoxes}");
         }
     }
